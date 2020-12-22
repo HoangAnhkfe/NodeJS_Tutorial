@@ -2,7 +2,10 @@
   "users": [
     {
       "name": "Hoang anh",
-      "id": "sH3-ieLPw"
+      "phone": "0963058211",
+      "id": "sH3-ieLPw",
+      "email": "anhnh@gmail.com",
+      "password": "123456"
     },
     {
       "name": "Trang",
@@ -11,6 +14,33 @@
     {
       "name": "Hung",
       "id": "FVomHhPIW"
+    },
+    {
+      "name": "Thao",
+      "phone": "0123456789",
+      "id": "QztyqT-RX"
+    },
+    {
+      "name": "Cong",
+      "phone": "0258963147",
+      "id": "bZFuuC7J8",
+      "email": "congvd@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "Am da la",
+      "phone": "123456987",
+      "id": "sn3kJTo2D"
+    },
+    {
+      "name": "ahihi",
+      "phone": "0123456781",
+      "id": "evpG_HCbs"
+    },
+    {
+      "name": "ahihiol",
+      "phone": "0963058211",
+      "id": "KrvOFx8Ws"
     }
   ]
 }

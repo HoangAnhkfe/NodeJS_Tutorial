@@ -5,7 +5,7 @@ var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 var userRouter = require("./routes/user.route");
 var authRouter = require("./routes/auth.route");
-express.Router();
+var authMiddleware = require("./middlewares/auth.middleware");
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
   });
 });
 
-app.use("/users", userRouter);
+app.use("/users", authMiddleware.requireAuth, userRouter);
 app.use("/auth", authRouter);
 app.listen(port, () => {
   console.log("Example app listening at http://localhost:" + port);
